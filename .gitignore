@@ -3,7 +3,7 @@
 .DS_Store
 TPS/.DS_Store
 TPS/cmake-build-debug
-
+TPS/.idea
 # Compiled Object files
 *.slo
 *.lo

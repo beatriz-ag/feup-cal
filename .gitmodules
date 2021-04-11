@@ -1,6 +1,0 @@
-[submodule "feup-cal-VaccineRouter"]
-	path = feup-cal-VaccineRouter
-	url = https://github.com/margaridav27/feup-cal-VaccineRouter.git
-[submodule "Projects/feup-cal-VaccineRouter"]
-	path = Projects/feup-cal-VaccineRouter
-	url = https://github.com/margaridav27/feup-cal-VaccineRouter.git

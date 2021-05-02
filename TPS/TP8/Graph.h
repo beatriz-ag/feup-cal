@@ -167,14 +167,12 @@ std::vector<Vertex<T> *> Graph<T>::getVertexSet() const {
 template <class T>
 void Graph<T>::fordFulkerson(T source, T target) {
  resetFlows();
- double tot = 0;
  Vertex<T>* src = findVertex(source);
  Vertex<T>* trg = findVertex(target);
 
   while (findAugmentationPath(src, trg)){
    double f = findMinResidualAlongPath(src, trg);
    augmentFlowAlongPath(src,trg, f);
-   tot += f;
  }
 }
 

@@ -16,7 +16,7 @@ TEST(TP8_Ex1, testFordFulkerson) {
     std::stringstream ss;
     for(auto v : graph.getVertexSet()) {
         ss << v->getInfo() << "-> (";
-        for (auto e : v->getOutcoming())
+        for (auto e : v->getOutcoming(e))
             ss << (e->getDest())->getInfo() << "[Flow: " << e->getFlow() << "] ";
         ss << ") || ";
     }

@@ -16,7 +16,7 @@ TEST(TP6_Ex2, test_dijkstra) {
     checkSinglePath(myGraph.getPath(1, 7), "1 2 4 5 7 ");
 
     myGraph.dijkstraShortestPath(5);
-    checkSinglePath(myGraph.getPath(5, 6), "5 7 6 ");
+    (myGraph.getPath(5, 6), "5 7 6 ");
 
     myGraph.dijkstraShortestPath(7);
     checkSinglePath(myGraph.getPath(7, 1), "7 6 4 3 1 ");
